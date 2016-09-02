@@ -1,0 +1,11 @@
+{
+    "name": "udaykumar77/stripe",
+    "description": "stripe easy integration with laravel",
+    "authors": [
+        {
+            "name": "Uday Gudivada",
+            "email": "gudivadaudaykumar@gmail.com"
+        }
+    ],
+    "require": {}
+}
