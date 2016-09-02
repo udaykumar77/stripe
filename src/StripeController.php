@@ -1,8 +1,6 @@
 <?php
 namespace UdayKumar77\Stripe;
 
-use Illuminate\Http\Request;
-use App\Http\Requests;
 use Exception;
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;
@@ -14,10 +12,7 @@ class StripeController extends Controller
 {
 	protected $request;
 
-	public function __construct(Request $request, User $user) {
-		$this->request = $request;
-		$this->user    = $user;
-	}
+	
 
 	//-------------------------------------------------------------------------
 

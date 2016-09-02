@@ -23,7 +23,8 @@ class StripeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include __DIR__.'/routes.php';
-        $this->app->make('UdayKumar77\Stripe\StripeController');
+        $this->app['stripecontroller'] = $this->app->share(function($app) {
+            return new StripeController;
+        });
     }
 }
