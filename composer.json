@@ -1,6 +1,7 @@
 {
     "name": "udaykumar77/stripe",
     "description": "stripe easy integration with laravel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Uday Gudivada",
